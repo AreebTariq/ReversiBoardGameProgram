@@ -1,0 +1,27 @@
+Requirement:
+	Linux OS (Ubuntu can work)
+	gcc compiler 
+	(can be installed following instructions: https://linuxize.com/post/how-to-install-gcc-compiler-on-ubuntu-18-04/)
+
+Step-1: Download the zip file and extract it in desired folder
+Step-2: You must have two files now in your folder: reversi.c and HowToUse.txt
+Step-3: Open Linux Terminal
+Step-4: Write this command: gcc -o reversi reversi.c
+Step-5: After the compilation, on the same terminal run the following command: ./reversi
+
+Output:
+Program will begin after this. 
+Play the game as per your choice.
+
+After each move: 
+	The board will be shown with placed disks
+	If user turn, possible moves will be indicated with '*' mark on board
+	Last move
+	Indication of next player to play a move
+	Statistics (current black and white disk count)
+
+If no possible moves from computer, a message will be displayed "No move possible for computer"
+If no possible moves from both computer and user, a message will be displayed "END GAME" and game automatically quits
+
+In case of any questions: write to areeb.tariq@yahoo.com
+
